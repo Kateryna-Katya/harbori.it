@@ -272,3 +272,32 @@ opacity: 0.8;
         display: none;
     }
 }
+/* Contact */
+.contact-section{
+    background-image: url("/img/contact/mob.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 100% 289px;
+    height: 669px;
+}
+.contact-section h3{
+    margin-bottom: 40px;
+}
+.contact-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    font-size: 24px;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (min-width: 1440px) {
+.contact-section{
+    background-image: url("/img/contact/desk.png");
+    background-size: 100% 591px;
+height: 941px;
+}
+ 
+}
