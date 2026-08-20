@@ -1,0 +1,62 @@
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.home-section {
+    background-image: url("/img/home/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+height: 840px;
+}
+.home-container{
+    padding-top: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home-subtitle{
+    margin-top: 64px;
+font-family: "Cinzel", sans-serif;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 1.3;
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #f2f5f8 0%, #ac601c 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.home-text{
+    margin-top: 284px;
+    font-size: 24px;
+}
+@media only screen and (min-width: 1440px) {
+.home-section {
+    background-image: url("/img/home/desk.png");
+height: 876px;
+}
+.home-container{
+    padding-top: 106px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home-subtitle{
+    margin-top: 80px;
+font-size: 48px;
+}
+.home-text{
+    margin-top: 427px;
+    font-size: 24px;
+}    
+}
